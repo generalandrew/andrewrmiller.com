@@ -14,11 +14,6 @@ app.use(webpackDevMiddleware(compiler, {
 
 app.use(webpackHotMiddleware(compiler))
 
-app.get('*', function(req, res) {
-  res.sendFile(path.join(process.cwd(), 'app/dist/index.html'));
-})
-
-
 app.listen(3000, function(err) {
   if (err) {
     return console.log(err);

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const App = (props) => {
   return (
-    <h1>Hello Andrew</h1>
+    <h1>Hello Andrew!</h1>
   )
 }
 

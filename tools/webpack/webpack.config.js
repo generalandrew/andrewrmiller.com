@@ -25,21 +25,21 @@ module.exports = {
     }]
   },
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
     path: path.join(process.cwd(), 'app/dist'),
     publicPath: '/'
   },
   plugins: [
-    // new CleanWebpackPlugin(
-    //   ['dist/*.*'], // path(s) to clean
-    //   {
-    //     root: path.join(process.cwd(), 'app/') // clean options
-    //   }
-    // ),
-    // new HtmlWebpackPlugin({
-    //   title: 'Andrew R Miller',
-    //   template: 'app/index.html'
-    // }),
+    new CleanWebpackPlugin(
+      ['dist/*.*'], // path(s) to clean
+      {
+        root: path.join(process.cwd(), 'app/') // clean options
+      }
+    ),
+    new HtmlWebpackPlugin({
+      title: 'Andrew R Miller',
+      template: 'app/index.html'
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
   ]
