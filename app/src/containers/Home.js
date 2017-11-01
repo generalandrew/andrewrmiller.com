@@ -24,7 +24,7 @@ const Quote = Text.extend`
 
 const QuoteAuthor = Text.extend`
   text-align: right;
-  text-style: italic;
+  font-style: italic;
 `;
 
 const Home = (props) => {
