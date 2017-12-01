@@ -12,7 +12,7 @@ import Text from '../atoms/Text';
 
 const BodyStyled = Body.extend`
   bottom: 0;
-  background-color: #AAA;
+  background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
   left: 0;
   right: 0;
   position: fixed;
@@ -21,6 +21,7 @@ const BodyStyled = Body.extend`
 const FooterContainer = Page.extend`
   align-items: center;
   flex-direction: row;
+  height: 45px;
   justify-content: space-between;
   max-width: ${ Size.ReadingWidth };
   text-align: center;

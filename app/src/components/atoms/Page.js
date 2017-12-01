@@ -7,6 +7,7 @@ import {
 const Page = styled.div`
 display: flex;
 flex-direction: column;
+margin-bottom: 80px;
 margin-left: auto;
 margin-right: auto;
 max-width: ${Size.ReadingWidth};

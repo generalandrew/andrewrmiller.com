@@ -1,5 +1,6 @@
 export const Color = {
-  white: '#FFFFFF'
+  Grey: '#AAAAAA',
+  White: '#FFFFFF'
 };
 
 export const Font = {
@@ -11,7 +12,7 @@ export const Font = {
     Base: '1rem',
     BaseLine: '1.6',
     Heading: '7.5vw',
-    Heading1: '2.5rem',
+    Heading1: '1.4rem',
     Logo: '3rem'
   }
 };
