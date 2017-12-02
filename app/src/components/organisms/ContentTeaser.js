@@ -33,7 +33,7 @@ const ContentTeaser = (props) => {
         { project.title }
       </ContentTitle>
       <DateTime>
-        Created on { project.date }
+        { project.date }
       </DateTime>
       <TextBlock>
         { project.description }

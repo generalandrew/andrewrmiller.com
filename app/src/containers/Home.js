@@ -39,10 +39,15 @@ const Home = (props) => {
         - Herbert Hover
       </QuoteAuthor>
       <StyledText>
+        Who am I?
+        <br/>
+        <a href="https://www.16personalities.com/entj-personality" target="_blank">
+          ENTJ-A
+        </a>
+        <br/>
         What am I really good at?
-      </StyledText>
-      <StyledText>
-        I enjoy embrassing the pain necessary to accomplish my goal.
+        <br/>
+        Finding the enjoyment when embracing the pain necessary to accomplish my goals. I find a way, or I make one.
       </StyledText>
       <StyledBoldText>
         Enough small talk, here is what I'm allowed to show you.

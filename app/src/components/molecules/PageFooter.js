@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {
+  Color,
   Size
 } from '../../../styles';
 
@@ -12,7 +13,7 @@ import Text from '../atoms/Text';
 
 const BodyStyled = Body.extend`
   bottom: 0;
-  background-image: linear-gradient(to bottom, #FFFFFF, #EEEEEE);
+  background: ${ Color.White };
   left: 0;
   right: 0;
   position: fixed;
@@ -24,6 +25,7 @@ const FooterContainer = Page.extend`
   height: 45px;
   justify-content: space-between;
   max-width: ${ Size.ReadingWidth };
+  padding-bottom: 0px;
   text-align: center;
 `
 
