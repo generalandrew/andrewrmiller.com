@@ -1,5 +1,6 @@
 export const Color = {
   Grey: '#AAAAAA',
+  Link: '#0677b1',
   White: '#FFFFFF'
 };
 

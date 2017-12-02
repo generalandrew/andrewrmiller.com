@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import styled from 'styled-components';
 
 import {
@@ -6,9 +6,10 @@ import {
   Size
 } from '../../../styles';
 
-import Body from '../atoms/Body';
-import Page from '../atoms/Page';
-import Text from '../atoms/Text';
+import Body     from '../atoms/Body';
+import LinkOut  from '../atoms/LinkOut';
+import Page     from '../atoms/Page';
+import Text     from '../atoms/Text';
 
 
 const BodyStyled = Body.extend`
@@ -34,9 +35,12 @@ const PageFooter = (props) => {
     <BodyStyled>
       <FooterContainer>
         <Text>Andrew Miller</Text>
-        <a href="https://github.com/generalandrew" target="_blank">
+        <LinkOut href="https://github.com/generalandrew" target="_blank">
           github
-        </a>
+        </LinkOut>
+        <LinkOut href="https://www.linkedin.com/in/andrewrichmiller/" target="_blank">
+          LinkedIn
+        </LinkOut>
       </FooterContainer>
     </BodyStyled>
   );

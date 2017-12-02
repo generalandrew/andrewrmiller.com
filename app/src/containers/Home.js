@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import ContentTeaser  from '../components/organisms/ContentTeaser';
+import LinkOut        from '../components/atoms/LinkOut';
 import Page           from '../components/atoms/Page';
 import Text from '../components/atoms/Text'
 
@@ -41,16 +42,16 @@ const Home = (props) => {
       <StyledText>
         Who am I?
         <br/>
-        <a href="https://www.16personalities.com/entj-personality" target="_blank">
+        <LinkOut href="https://www.16personalities.com/entj-personality" target="_blank">
           ENTJ-A
-        </a>
+        </LinkOut>
         <br/>
         What am I really good at?
         <br/>
-        Finding the enjoyment when embracing the pain necessary to accomplish my goals. I find a way, or I make one.
+        Finding the enjoyment in embracing the pain necessary to accomplish my goals. I find a way, or I make one.
       </StyledText>
       <StyledBoldText>
-        Enough small talk, here is what I'm allowed to show you.
+        Enough small talk, here is what I'm allowed to share with you.
       </StyledBoldText>
       <div>
       { Content }

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import LinkOut from '../atoms/LinkOut';
 import Section from '../atoms/Section';
 import Text from '../atoms/Text';
 import Title from '../atoms/Title';
@@ -37,6 +38,11 @@ const ContentTeaser = (props) => {
       </DateTime>
       <TextBlock>
         { project.description }
+      </TextBlock>
+      <TextBlock>
+        <LinkOut href={ project.link } target="_blank">
+          { project.link }
+        </LinkOut>
       </TextBlock>
     </Section>
   )
